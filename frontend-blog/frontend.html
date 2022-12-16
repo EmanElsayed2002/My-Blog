@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" date-react-helmet="lang">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="css/profile2.css">
+    <!-- normalize css -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome library -->
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+
+<body>
+    <div class="content">
+        <div class="container">
+            <div class="first">
+                <div class="info">
+                    <div class="a1">
+                        <img src="img/eman-img.jpg" alt="">
+                    </div>
+                    <div class="a2">
+                        <a href="index.html">Eman Elsayed</a>
+                        <br>
+                        <p>
+                            Junior Programmer👨‍💻
+                            <br>Web Developer👨‍💻
+                            <br>Competitive programmer👨‍💻
+                            <br>3rd-year CS student👨‍🎓.
+                        </p>
+                    </div>
+                    <div class="a3">
+                        <a href="index.html">Articles</a>
+                        <br>
+                        <a href="index.html">about me</a>
+                        <br>
+                        <br>
+                        <div class="sites">
+                            <i class="fa-brands fa-linkedin" onclick="clicklinkedin()" id="linkedin"></i>
+                            <i class="fa-brands fa-github" onclick="clickgithub()" id="github"></i>
+                            <i class="fa-brands fa-telegram" onclick="clicktelegram()" id="telegram"></i>
+                            <i class="fa-solid fa-envelope" onclick="clickemail()" id="email"></i>
+                            <i class="fa-brands fa-facebook" onclick="clickfacebook()" id="facebook"></i>
+                            <i class="fa-brands fa-twitter" onclick="clicktwitter()" id="twitter"></i>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="article">
+                <div class="b1">
+                    <img src="img/html_language.png" alt="">
+                    <div class="d1">
+                        <span class="date" id="date">MARCH 26, 2021</span>
+                        <span class="web" id="groub" onclick="web()">WEB DEVELOPMENT</span>
+                    </div>
+                    <div class="content">
+                        <br>
+                        <a href="https://elzero.org/learn-html/" id="elzero">Everything you need to learn HTML in all
+                            its versions </a>
+                        <br>
+                        <p>
+                            لبدأ حياتك في مجال الWeb يجب عليك تعلم لغة تصميم الصفحات والتي لا يمكن الإستغناء عنها سواء
+                            كنت Designer أو Developer وهي لغة Html وسوف تجد الدورة التعليمية ومعها جميع المراجع التي
+                            تحتاجها ومعها تمارين وأفكار كثيرة
+                        </p>
+                        <br>
+                        <a href="https://elzero.org/study/html-2021-study-plan/" class="read" id="Read">Study</a>
+                    </div>
+
+                </div>
+                <div class="b1">
+                    <img src="img/css.jfif" alt="">
+                    <div class="d1">
+                        <span class="date" id="date">MARCH 26, 2021</span>
+                        <span class="web" id="groub" onclick="web()">WEB DEVELOPMENT</span>
+                    </div>
+                    <div class="content">
+                        <br>
+                        <a href="https://elzero.org/learn-css/" id="elzero">Everything you need to learn css in all its
+                            versions </a>
+                        <br>
+                        <p> لغة CSS هي اللغة المسؤولة عن تنسيق صفحات ال Web وهي التي تتيح لك إستعمال الألوان والخطوط
+                            والأبعاد وكل ما يجعل من الصفحة الشكل الجميل الذي تراه ولا غنى عنها طبعا وسوف تجد الدورة
+                            التعليمية ومعها جميع المراجع التي تحتاجها ومعها تمارين وأفكار كثيرة</p>
+                        <br>
+                        <a href="https://elzero.org/study/css-2021-study-plan/" class="read" id="Read">Study</a>
+                    </div>
+
+                </div>
+                <div class="pre">
+                    <a href="index.html">Prev</a>
+                    <i class="fa-solid fa-arrow-left"></i>
+
+                </div>
+            </div>
+            <div class="article">
+                <div class="b1">
+                    <img src="img/javascript.png" alt="">
+                    <div class="d1">
+                        <span class="date" id="date">MARCH 26, 2021</span>
+                        <span class="web" id="groub" onclick="web()">WEB DEVELOPMENT</span>
+                    </div>
+                    <div class="content">
+                        <br>
+                        <a href="https://elzero.org/learn-javascript/" id="elzero">Everything you need to learn
+                            javascript in all its versions </a>
+                        <br>
+                        <p>هي لغة برمجية عالية المستوى تستخدم أساساً في متصفحات الويب ولها استخدامات واسعة أخرى في
+                            المجالات الأخرى , تضيف اساساً تفاعلية عالية الى صفحة الويب الخاصة بك</p>
+                        <br>
+                        <a href="https://elzero.org/study/javascript-bootcamp-2021-study-plan/" class="read"
+                            id="Read">Study</a>
+                    </div>
+
+                </div>
+                <div class="b1">
+
+                    <img src="img/git github.png" alt="">
+                    <div class="d1">
+                        <span class="date" id="date">MARCH 26, 2021</span>
+                        <span class="web" id="groub" onclick="back_end()">Git/GitHub</span>
+                    </div>
+                    <div class="content">
+                        <br>
+                        <a href="https://elzero.org/category/courses/git-and-github/" id="elzero">Everything you need to
+                            learn Git/GitHib in
+                            all its versions </a>
+                        <br>
+                        <p>اكبر منصة تخزين سحابي لمشاريع البرمجة المختلفة حول العالم حيث يحتوي الموقع على أكثر من ١٠٠
+                            مليون مشروع</p>
+                        <br>
+                        <a href="https://elzero.org/category/courses/git-and-github/" class="read" id="Read">Study</a>
+                    </div>
+
+                </div>
+                <div class="next">
+                    <a href="frontend2.html">next</a>
+                    <i class="fa-sharp fa-solid fa-arrow-right"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

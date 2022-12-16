@@ -1,0 +1,276 @@
+:root {
+    --main-color: #10cab7;
+    --secondary-color: #2c4755;
+    --section-padding: 60px;
+    --section-background: #f6f6f6;
+}
+
+* {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+.parent {
+    background-color: #eee;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 1050px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-gap: 40px;
+}
+
+
+.container .info {
+    position: fixed;
+}
+
+.container .info .a1 {
+    display: flex;
+    justify-content: left;
+
+}
+
+.container .info .a1 img {
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.container .info .a2 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .info .a2 a:hover {
+    color: #10cab7;
+}
+
+.container .info .a2 p {
+    color: #888;
+    line-height: 1.625rem;
+}
+
+.container .info .a3 a {
+    text-decoration: none;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.625rem;
+    letter-spacing: 1px;
+}
+
+.container .info .a3 a:hover {
+    color: #10cab7;
+}
+
+.container .info .a3 .sites {
+    padding-right: 50%;
+}
+
+.container .info .a3 .sites i {
+    width: 37px;
+    height: 37px;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.container .info .a3 .sites #github:hover {
+    color: blue;
+}
+
+.container .info .a3 .sites #facebook:hover {
+    color: blue;
+}
+
+.container .info .a3 .sites #email:hover {
+    color: red;
+}
+
+.container .info .a3 .sites #telegram:hover {
+    color: rgb(7, 150, 185);
+}
+
+.container .info .a3 .sites #linkedin:hover {
+    color: blue;
+}
+
+
+.container .info .a3 .sites #twitter:hover {
+    color: blue;
+}
+
+.container .article .b1 {
+    margin: 4px;
+    width: 100%;
+    height: 630px;
+
+
+}
+
+.container .article {
+    display: grid;
+}
+
+.container .article div {
+    display: relative;
+    width: 100%;
+    height: 540px;
+
+}
+
+
+.container .article .b1 img {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-bottom: 0px;
+}
+
+.container .article .b1 .d1 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.container .article .b1 .d1 span {
+    border-radius: 0.9375rem;
+    padding: 0 0.625rem;
+    font-size: .75rem;
+    line-height: 1.625rem;
+}
+
+.container .article .b1 .d1 .web {
+    color: white;
+    height: fit-content;
+    background-color: rgb(0, 110, 255);
+    margin: 5px;
+}
+
+.container .article .b1 .d1 .date {
+    margin: 5px;
+    height: fit-content;
+}
+
+.container .article .b1 a {
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 24px;
+    color: #000;
+}
+
+.container .article .b1 p {
+    width: 100%;
+    font-size: 20px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    line-height: 1.625rem;
+    direction: rtl;
+}
+
+
+.container .article .b1 .read {
+    font-size: 20px;
+    color: #162238;
+}
+
+.container .article .b1 #Read:hover {
+    color: #0082e6;
+}
+
+
+
+.container .article img {
+    width: 100%;
+    height: 30%;
+}
+
+.container .article .b1 {
+    box-shadow: 0 0.2rem 0.5rem 0.3rem rgb(0 0 0 / 4%);
+    border-radius: 0.375rem;
+    border-bottom-style: groove;
+    margin-bottom: 30px;
+}
+
+#date {
+    padding-left: 5px;
+}
+
+#groub {
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+.content {
+    padding: 0 10px;
+}
+
+.container .article .pre {
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+}
+
+
+.container .article .pre i {
+    width: 20px;
+    height: 20px;
+    color: #162238;
+    font-size: 20px;
+}
+
+.container .article .b1 a:hover {
+    color: #0082e6;
+}
+
+
+.container .article .pre a {
+    font-size: 40px;
+    color: #162238;
+    text-decoration: none;
+}
+
+.container .article .pre i:hover,
+.container .article .pre a:hover {
+    color: #0082e6;
+
+}
+
+.container .article .next {
+    width: auto;
+    height: 100px;
+    margin-top: 50px;
+    text-align: right;
+}
+
+.container .article .next i {
+    width: 20px;
+    height: 20px;
+    color: #162238;
+    font-size: 20px;
+}
+
+.container .article .next a {
+    font-size: 40px;
+    color: #162238;
+    text-decoration: none;
+}
+
+.container .article .next i:hover,
+.container .article .next a:hover {
+    color: #0082e6;
+
+}
